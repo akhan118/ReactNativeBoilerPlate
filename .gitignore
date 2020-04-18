@@ -51,7 +51,6 @@ buck-out
 .gradle
 local.properties
 *.iml
-/android/
 
 # Node
 node_modules
@@ -106,3 +105,13 @@ ios/Pods/boost-for-react-native/boost/config/suffix.hpp
 *.h
 *.xcconfig
 *.cpp
+android/app/src/main/res/
+android/app/_BUCK
+android/app/build_defs.bzl
+android/app/debug.keystore
+android/app/proguard-rules.pro
+android/app/src/debug/java/com/reactnativeboilerplate/ReactNativeFlipper.java
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradle/wrapper/gradle-wrapper.properties
+android/gradlew.bat
+android/gradlew
